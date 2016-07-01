@@ -1,0 +1,81 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container,
+.swiper-container .swiper-wrapper,
+.swiper-container .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container .swiper-wrapper .swiper-slide img{
+    width: 100%;
+}
+.swiper-slide .switchs{
+    position: absolute;
+    top: 80%;
+    padding: 2% 0;
+    color: #fff;
+    font-size: 16px;
+}
+.swiper-slide .switchs ul{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+.swiper-slide .switchs  p{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding: 0 2%;
+}
+.swiper-slide .switchs ul li{
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    margin-left: 2%;
+}
+.swiper-slide .switchs ul li img{
+    width: 100%;
+}
+.switchs-select{
+    border: 2px solid blue;
+}
+.gray{
+    color: #8c8c8c;
+}
+
+/*导航*/
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    overflow: auto;
+    background: #fff;
+    z-index: 11;
+    font-size: 18px;
+}
+.nav2{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    overflow: auto;
+    background: #fff;
+    z-index: 11;
+    font-size: 18px;
+}
+.nav ul,
+.nav2 ul{
+    list-style: none;
+    width: 100%;
+}
+.nav ul li,
+.nav2 ul li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+}

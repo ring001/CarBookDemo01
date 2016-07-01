@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>carbook</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/swiper.min.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="javascript/video-js/video-js.min.css">
+</head>
+<body>
+<!--<div class="nav">-->
+    <!--<ul>-->
+        <!--<li>第一页</li>-->
+        <!--<li>第二页</li>-->
+        <!--<li>第三页</li>-->
+        <!--<li>第四页</li>-->
+    <!--</ul>-->
+<!--</div>-->
+<!--<div class="nav2">-->
+    <!--<ul>-->
+        <!--<li>第一页</li>-->
+        <!--<li>第二页</li>-->
+        <!--<li>第三页</li>-->
+        <!--<li>第四页</li>-->
+    <!--</ul>-->
+<!--</div>-->
+<div class="swiper-container first-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="image/1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="image/2.jpg" alt=""></div>
+        <div class="swiper-slide">
+            <div class="swiper-container second-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="image/5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="image/4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="image/7.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="image/6.jpg" alt=""></div>
+                </div>
+            </div>
+            <img src="image/arrow.png" alt="" class="arrow">
+        </div>
+        <div class="swiper-slide">
+            <img src="image/11.jpg" alt="">
+            <div class="playVideo"><img src="image/play.png" alt=""></div>
+            <!--<div class="switchs">-->
+                <!--<p>车身颜色: <span> 普通漆</span><span class="gray"> 668黑</span></p>-->
+                <!--<ul>-->
+                    <!--<li class="switchs-select"><img src="image/14.jpg" alt=""></li>-->
+                    <!--<li><img src="image/8.jpg" alt=""></li>-->
+                    <!--<li><img src="image/9.jpg" alt=""></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        </div>
+        <div class="swiper-slide">
+            <div class="showeqv">
+                <h3>装备亮点</h3>
+                <ul>
+                    <li><img src="image/1.jpg" alt=""><p>外装</p><img src="image/icon.png" alt="" class="myicon"></li>
+                    <li><img src="image/2.jpg" alt=""><p>内装</p><img src="image/icon.png" alt="" class="myicon"></li>
+                    <li><img src="image/12.jpg" alt=""><p>功能性</p><img src="image/icon.png" alt="" class="myicon"></li>
+                    <li><img src="image/4.jpg" alt=""><p>舒适性</p><img src="image/icon.png" alt="" class="myicon"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+<div class="layer">
+    <img src="image/close.png" alt="关闭按钮" class="close">
+    <div class="swiper-container third-container layer">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="image/11.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="image/12.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="image/13.jpg" alt=""></div>
+        </div>
+        <div class="picthum">
+            <img src="image/control.jpg" alt="" class="control-icon">
+            <div class="picthumc">
+                <p>第一次自我介绍</p>
+                <ul>
+                    <li class="thum-select"><img src="image/11.jpg" alt=""></li>
+                    <li><img src="image/12.jpg" alt=""></li>
+                    <li><img src="image/13.jpg" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--<div class="show-video">
+    <img src="image/closeVideo.png" alt="" class="close-video">
+    <video id="video" class="video-js vjs-default-skin vjs-big-play-centered"
+           controls preload="auto" width="100%" height="100%" data-setup=''>
+        <source src="video/oceans.mp4" type='video/mp4' />
+    </video>
+</div>-->
+
+
+<script src="javascript/jquery-1.11.3.min.js"></script>
+<script src="javascript/bootstrap.min.js"></script>
+<script src="javascript/swiper.min.js"></script>
+<script src="javascript/video-js/video.js"></script>
+<script src="javascript/common.js"></script>
+<script>
+    videojs.options.flash.swf = "javascript/video-js/video-js.swf"
+</script>
+</body>
+</html>
